@@ -1,10 +1,11 @@
 import React from "react";
-import { HeroSection } from "./_components/_index";
+import { HeroSection, AboutSection } from "./_components/_index";
 
 function HomePage() {
   return (
     <div>
       <HeroSection />
+      <AboutSection />
     </div>
   );
 }
